@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("RDD-Test").getOrCreate()
+spark = SparkSession.builder.appName("action").getOrCreate()
 
 numbers = [1, 2, 3, 4, 5]
 

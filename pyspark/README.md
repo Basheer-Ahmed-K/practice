@@ -13,7 +13,7 @@ spark = SparkSession.builder.appName("RDD-Test").getOrCreate()
 ```
 
 ## Creating RDDs
-RDDs can be created from existing RDDs or by parallelizing a collection of data. We can parallelize a list of numbers or a list of tuples to create RDDs.
+RDDs can be created from existing RDDs or by arallelizing a collection of data. We can parallelize a list of numbers or a list of tuples to create RDDs.
 
 ## RDD Actions
 Actions in Spark are operations that trigger computation and return results to the driver program. Here are some common RDD actions:

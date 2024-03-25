@@ -60,3 +60,14 @@ df = df.drop('Experience after 2 years')
 df = df.withColumnRenamed('age', 'new age')
 ```
 
+### 1. Dataframe - RDD Example
+
+Created a SparkSession
+created a list of numbers
+created a RDD using parallelize method
+
+Created a DataFrame using above created RDD
+
+### 2. dataframe - JSON Example
+
+read JSON data into a PySpark DataFrame and perform basic operations like filtering.

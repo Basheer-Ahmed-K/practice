@@ -37,7 +37,7 @@ Transformations in Spark are operations that transform one RDD into another RDD.
 - `intersection()`: Computes the intersection of two RDDs.
 - `distinct()`: Returns a new RDD containing distinct elements.
 - `groupByKey()`: Groups the values for each key in the RDD.
-- `flatMap()`: Similar to map, but each input item can be mapped to 0 or more output items.
+- `flatMap()`: Similar to map, but each input item can be mapped to 0 or more output items. (so func should return a seq rather than a single item)
 - `mapPartitions()`: Similar to map, but runs separately on each partition of the RDD.
 - `mapPartitionsWithIndex()`: Similar to mapPartitions(), but provides the index of the partition.
 - `glom()`: Returns an RDD created by coalescing all elements within each partition into a list.

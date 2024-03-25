@@ -31,4 +31,12 @@ df.show()
 
 # rename the Column
 df = df.withColumnRenamed('age', 'new age')
-df.show()
+
+# show -> prints the first top n rows to the console
+df.show() # or we can pass a param like this df.show(2)
+
+# collect -> returns all the records as list of rows
+print(df.collect())
+
+# take -> returns the n rows as list of rows
+print(df.take(3))

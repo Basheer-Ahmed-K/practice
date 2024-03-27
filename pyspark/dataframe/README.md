@@ -71,3 +71,51 @@ Created a DataFrame using above created RDD
 ### 2. dataframe - JSON Example
 
 read JSON data into a PySpark DataFrame and perform basic operations like filtering.
+
+
+# PySpark DataFrame Functions
+
+PySpark provides a variety of DataFrame functions to perform operations on DataFrames efficiently.
+
+## count()
+
+Counts the number of rows in the DataFrame.
+
+## select()
+
+Selects one or more columns from the DataFrame.
+
+## filter() & where()
+
+Filters rows from the DataFrame based on a condition.
+
+## like()
+
+Filters rows based on a SQL-like pattern.
+
+## describe()
+
+Computes statistics for numeric and string columns.
+
+
+## columns()
+
+Returns a list of column names in the DataFrame.
+
+## when() & otherwise()
+
+Allows conditional processing when used in conjunction with `withColumn()`.
+
+## alias()
+
+Aliases a column in the DataFrame.
+
+## orderBy() & sort()
+
+Sorts the DataFrame by one or more columns.
+
+## groupBy() & groupBy agg()
+
+Groups the DataFrame using specified columns and allows aggregation.
+
+

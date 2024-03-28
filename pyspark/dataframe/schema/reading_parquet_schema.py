@@ -8,14 +8,13 @@ spark = SparkSession.builder \
 
 # Define the schema
 schema = StructType([
-    StructField("Name", StringType(), nullable=True),
-    StructField("Age", IntegerType(), nullable=True),
-    StructField("City", StringType(), nullable=True),
-    StructField("HasChildren", BooleanType(), nullable=True)
+    StructField("name", StringType(), nullable=True),
+    StructField("age", IntegerType(), nullable=True),
+    StructField("Experience", StringType(), nullable=True)
 ])
 
 # Path to the Parquet file
-parquet_path = "path/to/your/file.parquet"
+parquet_path = "sample_parquet.parquet"
 
 # Read the Parquet file with the specified schema
 df = spark.read.parquet(parquet_path, schema=schema)

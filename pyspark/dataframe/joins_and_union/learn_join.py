@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark_session = SparkSession.builder.appName('learn-joins').getOrCreate()
+spark_session = SparkSession.builder.appName('learn-joins_and_union').getOrCreate()
 
 customer_path = r'C:\Users\Basheer AhmedK\Desktop\Diggibyte\Pyspark\pyspark practice\pyspark\datasets\customer.csv'
 sales_path = r'C:\Users\Basheer AhmedK\Desktop\Diggibyte\Pyspark\pyspark practice\pyspark\datasets\sales.csv'

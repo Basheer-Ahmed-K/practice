@@ -1,0 +1,11 @@
+id,name,HR_salary,IT_salary,Finance_salary
+1,John,50000,0,0
+2,Alice,0,60000,0
+3,Michael,0,0,55000
+4,Sarah,52000,0,0
+5,David,0,63000,0
+6,Emily,0,0,58000
+7,James,51000,0,0
+8,Emma,0,61000,0
+9,William,0,0,54000
+10,Sophia,53000,0,0
